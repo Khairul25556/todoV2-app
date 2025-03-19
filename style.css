@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div {
+    width: 100%;
+    max-width: 500px; 
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+} 
+
+
+input, button {
+    width:90%;
+    padding: 12px;
+    margin: 10px 0px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    outline: none;
+    background-color: #444;
+    color: white;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #5fbd5f;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #478147;
+}
+
+
+ul {
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style-type: none;
+}
+
+
+li {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.delBtn {
+    background-color: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delBtn:hover {
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    div {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+}
